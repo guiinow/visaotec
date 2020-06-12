@@ -10,10 +10,11 @@ html {
 }
   
 body {
-    background-color: #2c2c34;
     background-size: 100vw 100vh;
     height: 100vh;
     font-size: 12px;    
+    background-image: url(../images/imagem-fundo.png);
+
 }
 .menu{
     background-color: #d8cce0;
@@ -39,3 +40,8 @@ body {
     display: block;
     padding: 10px 10px;
 }
+
+.produtos {
+    padding-top: 30%;
+}
+

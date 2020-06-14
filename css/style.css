@@ -74,4 +74,9 @@ body {
     position: sticky;
     top: 10%;
     left: 100%;
-  }
+}
+
+footer{
+    background-color: #202026;
+    padding: 3%;
+}

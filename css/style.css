@@ -69,3 +69,9 @@ body {
     text-align: center;
 
 }
+
+.sticky {
+    position: sticky;
+    top: 10%;
+    left: 100%;
+  }

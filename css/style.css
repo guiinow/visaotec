@@ -17,13 +17,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/imagem-fundo.png);
 }
 
 body {
     background-size: 100vw 100vh;
     height: 100vh;
     font-size: 12px;  
-    background-image: url(../images/imagem-fundo.png);
 }
 
 #menu {
@@ -86,6 +86,13 @@ body {
     display: inline-block;
     border-radius: 2em ;
     margin: 2em;
+}
+
+.sobre {
+    background-color: #2c2c34;
+}
+.produtos {
+    background-color: #202026;
 }
 
 .inline-block:hover{

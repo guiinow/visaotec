@@ -79,16 +79,18 @@ body {
     padding-bottom: 20%;
 }
 #propositos{
-    margin-left: 16em;
+    margin-left: 10em;
     margin-top: 10em;
 }
 .inline-block {
     display: inline-block;
     border-radius: 2em ;
+    margin: 2em;
 }
 
 .inline-block:hover{
-    box-shadow: 0 0px 25px 10px white;
+    box-shadow: 0 0px 25px 10px #DB3B1F;
+    transform: scale(1.05);
 }
 
 body #sticky {

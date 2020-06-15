@@ -21,7 +21,6 @@ body {
     height: 100vh;
     font-size: 12px;  
     background-image: url(../images/imagem-fundo.png);
-
 }
 
 .menu {
@@ -53,7 +52,7 @@ body {
     color: #d8cce0;
 }
 
-
+/* 
 .sobre h1  {
     text-align: center;
     font-family: Open Sans;
@@ -61,13 +60,15 @@ body {
     font-weight: normal;
     font-size: 100px;
     line-height: 136px;
-    color: #FFFFFF;
-    
-    
-}
-.sobre .traçado {
-    text-align: center;
+    color: #d8cce0;
+      
+} */
 
+.sobre img,
+.produtos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sticky {
@@ -78,5 +79,11 @@ body {
 
 footer{
     background-color: #202026;
-    padding: 3%;
+    color: #d8cce0;
+}
+
+footer .footer-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

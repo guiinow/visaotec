@@ -157,13 +157,21 @@ This part takes care of the contato section
 }
 
 form{
+    margin-left: 10%;
     width: 30%;
     font-size: 2em;
+
 }
 
-label {
-    color: #DB3B1F;
+#mensagem{
+    margin-left: 50%;
 }
+
+#button {
+    background-color: #DB3B1F;
+}
+
+
 
 /* ========================================
 This part takes care of the footer 

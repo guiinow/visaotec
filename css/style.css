@@ -81,8 +81,7 @@ This section takes care of the top menu
 This part takes care of the sobre section
 ======================================== */
 
-.sobre img,
-.produtos img{
+.sobre img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -119,12 +118,52 @@ This part takes care of the sobre section
 /* ========================================
 This part handles the produtos section
 ======================================== */
+.produtos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .produtos {
     background-color: #202026;
 }
 
+#teclado {
+    margin-right: 0%;
+    width: 30%;
+}
 
+#mouse {
+    margin-left: 0%;
+    width: 20%;
+}
+#fone {
+    margin-right: 0%;
+    width: 20%;
+}
+
+/* ========================================
+This part takes care of the contato section 
+======================================== */
+.contato img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contato{
+    background-image: url(../images/contato-bg.png);
+
+}
+
+form{
+    width: 30%;
+    font-size: 2em;
+}
+
+label {
+    color: #DB3B1F;
+}
 
 /* ========================================
 This part takes care of the footer 

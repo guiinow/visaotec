@@ -2,7 +2,7 @@
 CLASS - Multiplas por elemento/página. Identificador: . */
 
 /*soft reset do css*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,16 +26,8 @@ body {
     font-size: 12px;  
 }
 
-header #logo-grande{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7%;
-}
-
-
-body #sticky {
-    position: sticky;
+.sticky {
+    position: center;
     top: 50%;
     left: 100%;
 }
@@ -48,14 +40,14 @@ This section takes care of the top menu
     background-color: #d8cce0;
     position: fixed;
     width: 100vw;
-    height: 12%;
+    height: 11.5%;
     top: 0;
     z-index: 1;
     font-family: Open Sans, monospace;
 }
 
 #menu ul {
-    font-family: monospace;
+    font-family: Open Sans, monospace;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -70,10 +62,10 @@ This section takes care of the top menu
 }
 #menu a:hover {
     background-color: #2c2c34;
-    color: #DB3B1F;
+    color: #d8cce0;
 }
 
-/* 
+/*
 .sobre h1  {
     text-align: center;
     font-family: Open Sans;
@@ -89,7 +81,7 @@ This section takes care of the top menu
 This part takes care of the sobre section
 ======================================== */
 
-.sobre img{
+.sobre img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -99,13 +91,10 @@ This part takes care of the sobre section
     padding-top: 20%;
     padding-bottom: 20%;
 }
-#propositos{
+
+#propositos {
     margin-left: 10em;
     margin-top: 10em;
-}
-
-#propositos img{
-    width: 70%;
 }
 
 .inline-block {
@@ -118,7 +107,7 @@ This part takes care of the sobre section
     background-color: #2c2c34;
 }
 
-.inline-block:hover{
+.inline-block:hover {
     box-shadow: 0 0px 25px 10px #DB3B1F;
     transform: scale(1.05);
 }
@@ -126,7 +115,7 @@ This part takes care of the sobre section
 /* ========================================
 This part handles the produtos section
 ======================================== */
-.produtos img{
+.produtos img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -153,25 +142,25 @@ This part handles the produtos section
 /* ========================================
 This part takes care of the contato section 
 ======================================== */
-.contato img{
+.contato img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.contato{
+.contato {
     background-image: url(../images/contato-bg.png);
 
 }
 
-form{
+form {
     margin-left: 10%;
     width: 30%;
     font-size: 2em;
 
 }
 
-#mensagem{
+#mensagem {
     margin-left: 50%;
 }
 
@@ -185,12 +174,12 @@ form{
 This part takes care of the footer 
 ======================================== */
 
-footer{
+footer {
     background-color: #202026;
     color: #d8cce0;
 }
 
-footer .footer-text{
+footer .footer-text {
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
-    <!-- Meta tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
-    <!-- CSS link  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Bootstrap link  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  
     <title>Visão tec</title>
 </head>
 <body id="home">
@@ -25,24 +17,26 @@
         <nav id="menu">
             <ul>
             <a href="index.html">
-                <img id="logo-horizontal" src="images/logo-horizontal.png" alt="logo-horizontal">
+                <img src="images/logo-horizontal.png" alt="logo-horizontal">
             </a>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#produtos">PRODUTOS</a></li>
+            <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
-        
-        <img id="sticky" src="images/instagram-logo 4.png" alt="">
-        <img id="logo-grande" src="images/logo.png" alt="logo">
+        <div id="sticky">
+            <img src="images/instagram-logo 4.png" alt="">
+        </div>
+        <img src="images/logo.png" alt="logo">
     </header>
 
-    <!-- SOBRE 
+    <!-- ==============================================
+         SOBRE 
     ============================================== -->
 
     <div class="sobre" id="sobre">
-        <img src="images/sobre.png" alt="sobre" width="30%">
+        <img src="images/sobre.png" alt="sobre" width="40%">
 
         <div id="propositos">
             <div class="inline-block">
@@ -58,43 +52,47 @@
         <img id="sobre-detalhado" src="images/sobre-detalhado.png" alt="loja-de-gamers" width="100%">
     </div>
 
-        <!-- PRODUTOS 
-    ========================================= -->
+    <!-- ==============================================
+         PRODUTOS 
+    ============================================== -->
     
     <section class="produtos" id="produtos">
-        <img src="images/produtos.png" alt="produtos" width="30%">
+        <img src="images/produtos.png" alt="produtos" width="40%">
         <img id="teclado" src="images/teclado.png" alt="teclado">
         <img id="mouse" src="images/mouse.png" alt="mouse">
         <img id="fone" src="images/fone.png" alt="fone">
     </section>
 
-    <!--  CONTATO 
+    <!-- ==============================================
+         CONTATO 
     ============================================== -->
 
     <section class="contato">
-        <img src="images/contato.png" alt="contato" id="contato" width="30%">
+        <img src="images/contato.png" alt="contato" id="contato" width="40%">
 
         <form>
             <div class="form-group" >
-              <input type="email" placeholder="Nome" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" placeholder="Nome" class="form-control" id="FortmInputName" aria-describedby="emailHelp">
             </div>
             <div class="form-group">
-                <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" placeholder="Email" class="form-control" id="FormInputEmail" aria-describedby="emailHelp">
             </div>
             <div class="form-group">
-                <input type="email" placeholder="Assunto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-          </form>
+                <input type="email" placeholder="Assunto" class="form-control" id="FormInputSubject" aria-describedby="emailHelp">
+            </div>
+        </form>
 
-          <form id="mensagem">
-            <textarea class="form-control" placeholder="Mensagem" id="exampleFormControlTextarea1" rows="7"></textarea>
+        <form id="mensagem">
+            <textarea class="form-control" id="FormInputText" rows="7">Mensagem</textarea>
             <button type="submit" id="button" class="btn btn-primary">Submit</button>
         </form>
 
     </section>
 
-        <!-- FOOTER 
-        ============================================== -->
+
+    <!-- ==============================================
+         FOOTER 
+    ============================================== -->
     <footer>
         <div class="footer-text">
             © 2020 Copyright - Umbrella Corp. 

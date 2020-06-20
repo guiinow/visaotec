@@ -32,9 +32,8 @@ body {
     left: 100%;
 }
 
-/* ========================================
-This section takes care of the top menu
-======================================== */
+/* TOP MENU
+========================================  */
 
 #menu {
     background-color: #d8cce0;
@@ -77,9 +76,8 @@ This section takes care of the top menu
       
 } */
 
-/* ========================================
-This part takes care of the sobre section
-======================================== */
+/* SOBRE
+========================================  */
 header img,
 .sobre img {
     display: block;
@@ -112,9 +110,8 @@ header img,
     transform: scale(1.05);
 }
 
-/* ========================================
-This part handles the produtos section
-======================================== */
+/* PRODUTOS
+========================================  */
 .produtos img {
     display: block;
     margin-left: auto;
@@ -152,10 +149,9 @@ This part handles the produtos section
     margin-right: 0%;
     width: 20%;
 }
-
-/* ========================================
-This part takes care of the contato section 
-======================================== */
+/* 
+CONTATO
+========================================  */
 .contato img {
     display: block;
     margin-left: auto;
@@ -184,8 +180,7 @@ form {
 
 
 
-/* ========================================
-This part takes care of the footer 
+/* FOOTER
 ======================================== */
 
 footer {

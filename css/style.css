@@ -13,7 +13,7 @@ html {
 }
   
 header {
-    height: 100vh;
+    height: 57em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ body {
     background-color: #d8cce0;
     position: fixed;
     width: 100vw;
-    height: 11.5%;
+    height: 7em;
     top: 0;
     z-index: 1;
     font-family: Open Sans, monospace;
@@ -78,7 +78,13 @@ body {
 
 /* SOBRE
 ========================================  */
-header img,
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .sobre img {
     display: block;
     margin-left: auto;
@@ -95,6 +101,13 @@ header img,
     margin-top: 10em;
 }
 
+#propositos img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
 .inline-block {
     display: inline-block;
     border-radius: 2em ;
@@ -106,13 +119,15 @@ header img,
 }
 
 .inline-block:hover {
-    box-shadow: 0 0px 25px 10px #DB3B1F;
+    box-shadow: 0 0 25px 10px #DB3B1F;
     transform: scale(1.05);
 }
 
 /* PRODUTOS
 ========================================  */
+
 .produtos img {
+    padding-bottom: 5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -150,10 +165,13 @@ header img,
     margin-right: 0%;
     width: 20%;
 }
+
 /* 
 CONTATO
 ========================================  */
+
 .contato img {
+    padding-top: 5%;
     display: block;
     margin-left: auto;
     margin-right: auto;

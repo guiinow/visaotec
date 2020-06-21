@@ -26,9 +26,9 @@ body {
     font-size: 12px;  
 }
 
-.sticky {
+#sticky {
     position: sticky;
-    top: 50%;
+    top: 10%;
     left: 100%;
 }
 

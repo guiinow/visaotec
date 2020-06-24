@@ -215,3 +215,19 @@ footer .footer-text {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* BOTTOM - CLIQUE E COMPRE
+========================================  */
+
+#sticky {
+  position: fixed;
+  width: 153px;
+  height: 234px;
+  background-color: transparent;
+  padding-top: 300px;
+  margin-bottom: 0;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+  margin-top: 16px;
+}

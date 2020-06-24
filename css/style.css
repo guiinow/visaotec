@@ -147,13 +147,11 @@ header img {
 }
 
 #campo-teclado,
-#campo-fone {
+#campo-fone,
+#campo-mouse {
     background-color: #202026;
 }
 
-#campo-mouse {
-    background-color: #2c2c34;
-}
 
 #teclado {
     margin-right: 0;

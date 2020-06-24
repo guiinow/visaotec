@@ -124,9 +124,10 @@ header img {
 ========================================  */
 
 .produtos img {
-    padding-bottom: 5%;
+    padding-bottom: 7%;
     display: block;
     margin-left: auto;
+    margin-top: -10%;
     margin-right: auto;
 }
 
@@ -137,6 +138,7 @@ header img {
 .produtos h2{
     color: #e35610;
     text-align: center;
+;
 }
 
 .produtos h4{

@@ -213,13 +213,11 @@ footer .footer-text {
 
 #sticky {
     position: fixed;
-    width: 10em;
-    height: 15em;
+    height: 16em;
     background-color: transparent;
-    padding-top: 18.750em;
+    padding-top: 18.75em;
     right: 4em;
-    z-index: 1000;
-    margin-top: 20%;
+    bottom: 20em;
 }
 
 /*=== Limpar o campo do placeholder===*/

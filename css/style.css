@@ -26,12 +26,6 @@ body {
     font-size: 12px;  
 }
 
-#sticky {
-    position: sticky;
-    top: 10%;
-    right: 100%;
-}
-
 /* TOP MENU
 ========================================  */
 
@@ -218,16 +212,14 @@ footer .footer-text {
 ========================================  */
 
 #sticky {
-  position: fixed;
-  width: 153px;
-  height: 234px;
-  background-color: transparent;
-  padding-top: 300px;
-  margin-bottom: 0;
-  bottom: 40px;
-  right: 40px;
-  z-index: 1000;
-  margin-top: 16%;
+    position: fixed;
+    width: 10em;
+    height: 15em;
+    background-color: transparent;
+    padding-top: 18.750em;
+    right: 4em;
+    z-index: 1000;
+    margin-top: 20%;
 }
 
 /*=== Limpar o campo do placeholder===*/

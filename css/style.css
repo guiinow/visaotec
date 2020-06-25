@@ -229,3 +229,18 @@ footer .footer-text {
   z-index: 1000;
   margin-top: 16%;
 }
+
+/*=== Limpar o campo do placeholder===*/
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+ }
+ input:focus:-moz-placeholder { 
+    color: transparent;  
+ }
+ input:focus::-moz-placeholder {  
+    color: transparent;  
+ }
+ input:focus:-ms-input-placeholder {  
+    color: transparent;  
+ }

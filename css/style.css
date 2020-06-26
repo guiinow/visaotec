@@ -46,6 +46,7 @@ body {
     justify-content: space-evenly;
 }
 
+
 #menu a {
     font-size: xx-large;
     display: block;
@@ -56,6 +57,10 @@ body {
 #menu .discreto:hover {
     background-color: #2c2c34;
     color: #DB3B1F;
+}
+
+header #imagem-central{
+    padding-top: 10%;
 }
 
 

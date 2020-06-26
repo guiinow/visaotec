@@ -63,15 +63,14 @@ header #imagem-central{
     padding-top: 10%;
 }
 
-
-/* SOBRE
-========================================  */
-
 header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* SOBRE
+========================================  */
 
 .sobre img {
     display: block;
@@ -79,8 +78,13 @@ header img {
     margin-right: auto;
 }
 
+#borrado-sobre{
+    padding-top: 6em;
+}
+
+
 #sobre-detalhado {
-    padding-top: 10%;
+    padding-top: 2gi0%;
     padding-bottom: 30%;
 }
 
@@ -122,7 +126,9 @@ header img {
 .produtos {
     background-color: #2c2c34;
 }
-
+#borrado-produtos{
+    padding-top: 7em;
+}
 .produtos h2{
     color: #e35610;
     text-align: center;

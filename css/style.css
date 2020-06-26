@@ -53,22 +53,11 @@ body {
     text-decoration: none;
     color: #202026;
 }
-#menu a:hover {
+#menu .discreto:hover {
     background-color: #2c2c34;
     color: #DB3B1F;
 }
 
-/*
-.sobre h1  {
-    text-align: center;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
-    line-height: 136px;
-    color: #d8cce0;
-      
-} */
 
 /* SOBRE
 ========================================  */
@@ -86,8 +75,8 @@ header img {
 }
 
 #sobre-detalhado {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 30%;
 }
 
 #propositos {

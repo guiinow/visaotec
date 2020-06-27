@@ -228,11 +228,14 @@ footer {
     color: #d8cce0;
 }
 
-footer .footer-text {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+footer img {
+    margin-left: 60%;
 }
+
+footer #umbrella{
+    padding-left: 40%;
+}
+
 
 /* BOTTOM - CLIQUE E COMPRE
 ========================================  */
@@ -244,6 +247,7 @@ footer .footer-text {
     padding-top: 18.75em;
     right: 4em;
     bottom: 20em;
+    /* z-index: 1; */
 }
 
 /*=== Limpar o campo do placeholder===*/

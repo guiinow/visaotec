@@ -17,8 +17,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/imagem-fundo.png);
-}
+    background: url(../images/imagem-fundo.png) center no-repeat;
+    background-size: cover;
+    }
 
 body {
     background-size: 100vw 100vh;
@@ -89,12 +90,19 @@ header img {
 }
 
 #propositos {
-    margin-left: 12em;
     margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 }
 
 #propositos img {
     max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 }
 
 .inline-block {
@@ -192,7 +200,8 @@ CONTATO
 }
 
 .contato {
-    background-image: url(../images/contato-bg.png);
+    background: url(../images/contato-bg.png) center;
+    background-size: cover;
 }
 
 form {

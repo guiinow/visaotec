@@ -229,11 +229,23 @@ footer {
 }
 
 footer img {
-    margin-left: 60%;
+    margin-left: 65%;
+    padding-bottom: 1%;
 }
 
 footer #umbrella{
-    padding-left: 40%;
+    padding-left: 65%;
+    text-shadow: 1px 1px #DB3B1F;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d8cce0;
+}
+
+footer #creditos{
+    padding-left: 10%;
+
 }
 
 

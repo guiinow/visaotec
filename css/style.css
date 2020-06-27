@@ -85,16 +85,16 @@ header img {
 
 
 #sobre-detalhado {
-    padding-top: 20%;
-    padding-bottom: 30%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 #propositos {
-    margin-top: 10em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center
+    
 }
 
 #propositos img {
@@ -135,7 +135,8 @@ header img {
     background-color: #2c2c34;
 }
 #borrado-produtos{
-    padding-top: 7em;
+    padding-top: 10em;
+    padding-bottom: 3em;
 }
 .produtos h2{
     color: #e35610;
@@ -246,7 +247,7 @@ footer .footer-text {
 }
 
 /*=== Limpar o campo do placeholder===*/
-
+/* 
 input:focus::-webkit-input-placeholder {
     color: transparent;
 }
@@ -261,4 +262,4 @@ input:focus::-moz-placeholder {
 
 input:focus:-ms-input-placeholder {
     color: transparent;
-}
+} */

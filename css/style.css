@@ -152,9 +152,17 @@ header img {
 }
 
 .textoProdutos {
-    padding: 8em;
-    margin: 8em;
+    padding: 6em;
+    margin: 6em;
     text-align: justify-all;
+}
+
+#foneTexto {
+    padding-top: 12em;
+}
+
+#tecladoTexto {
+    padding-top: 12em;
 }
 
 #campo-teclado {
@@ -168,7 +176,7 @@ header img {
 }
 
 #campo-mouse {
-    height: 24em;
+    height: 18em;
 }
 
 #teclado {

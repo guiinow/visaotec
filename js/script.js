@@ -8,3 +8,7 @@ window.addEventListener('scroll', function(e) {
         menu.classList.remove('scrolled')   //Remove a classe "scrolled" no menu
     }
 });
+
+function myFunction() {
+    alert("Olá, não foi possível enviar seu e-mail no momento!");
+}

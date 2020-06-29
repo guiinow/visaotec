@@ -278,21 +278,3 @@ footer #creditos{
     bottom: 20em;
     /* z-index: 1; */
 }
-
-/*=== Limpar o campo do placeholder===*/
-/* 
-input:focus::-webkit-input-placeholder {
-    color: transparent;
-}
-
-input:focus:-moz-placeholder {
-    color: transparent;  
-}
-
-input:focus::-moz-placeholder {
-    color: transparent;  
-}
-
-input:focus:-ms-input-placeholder {
-    color: transparent;
-} */

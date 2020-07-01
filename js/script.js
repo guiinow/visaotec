@@ -9,6 +9,6 @@ window.addEventListener('scroll', function(e) {
     }
 });
 
-function myFunction() {
-    alert("Olá, não foi possível enviar seu e-mail no momento!");
+function modal() {
+    alert("Mensagem enviada com sucesso!");
 }

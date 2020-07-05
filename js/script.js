@@ -10,5 +10,5 @@ window.addEventListener('scroll', function(e) {
 });
 
 function modal() {
-    alert("Mensagem enviada com sucesso!");
+    alert("Desculpe, impossível mandar mensagem no momento.");
 }
